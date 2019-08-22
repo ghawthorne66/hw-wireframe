@@ -1,0 +1,86 @@
+.header{
+    height: 80px;
+    width: 80%;
+    background-color: #eee;
+    position: fixed;
+    top: 10px;
+    left: 10%;
+    right: 10%;
+}
+
+.nav{
+    height: 80px;
+    width: 80%;
+    background-color: #eee;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    left: 10%;
+    right: 10%;
+}
+
+.section{
+    height: 160px;
+    width: 200px%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: #eee;
+    position: relative;
+    top: 0px;
+    left: -10%;
+    right: 10%;
+
+}
+
+.footer{
+    height: 50px;
+    width: 80%;
+    background-color: #eee;
+    position: relative;
+    top: 200px;
+    left: 0;
+    right: 0;
+}
+
+.section{
+    height: 200px;
+    width: 40%;
+    background-color: #eee;
+    position: fixed;
+    top: 200px;
+    left: 10%;
+    right: 0;
+}
+
+.article{
+    height: 50px;
+    width: 20%;
+    background-color: gray;
+    position: relative;
+    top: 200px;
+    left: 0;
+    right: 0;
+}
+
+.aside{
+    height: 200px;
+    width: 20%;
+    background-color: #eee;
+    position: relative;
+    margin-right: 0px;
+    margin-left: 50%;
+    top: 120px;
+    left: 70%;
+    right: 60px;
+}
+
+body{
+    background-color: gray;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding: 0%;
+   
+
+    
+} 
