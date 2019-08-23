@@ -1,81 +1,96 @@
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    width: 960px;
     background-color: gray;
     margin: 0 auto;
-    width: 80%;
     text-align: center;
     padding: 0%;
-   
-
     
 } 
 
-
 .header{
     padding: 30px;
-    width: 80%;
+    width: 850px;
     background-color: #eee;
-    position: fixed;
-    top: 10px;
+    margin-top: 5px;
+    margin-bottom: 1%;
+
+    /* position: fixed; */
+    /* top: 10px;
     left: 10%;
-    right: 10%;
+    right: 10%; */
 }
 
 .nav{
-    height: 80px;
-    /* width: 80%; */
+    padding: 30px;
+    /* height: 80px; */
+    width: 850px; 
     background-color: #eee;
-    position: relative;
+    margin-bottom: 2%;
+    /* position: relative;
     text-align: center;
-    top: 100px;
+    top: 100px; */
     /* left: 10%; */
     /* right: 10%; */
 }
 
+
 .section{
-    height: 160px;
-    width: 200px%;
-    margin-bottom: 0px;
+    padding: 10px;
+    padding-top: 30px;
+    height: 240px;
+    width: 495px;
+    background-color: #eee;
     margin-top: 0px;
-    background-color: #eee;
-    position: relative;
-    top: 0px;
-    left: -10%;
-    right: 10%;
-
-}
-
-.footer{
-    height: 50px;
-    width: 80%;
-    background-color: #eee;
-    position: relative;
-    top: 200px;
-    left: 0;
-    right: 0;
-}
-
-.section{
-    height: 200px;
-    width: 40%;
-    background-color: #eee;
-    position: fixed;
+    margin-bottom: 0px;
+    float: left;
+    /* position: fixed;
     top: 200px;
     left: 10%;
-    right: 0;
+    right: 0; */
+}
+
+.h1 {
+
+    height: 30px;
+    width: 90%;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+    color: #777;
+    background: #ebebeb;
+
+}
+
+.p {
+    height: 35px;
+    margin-left: 15px;
+    padding: 5px;
+    width: 90%;
+    color: #777;
+    background: #ebebeb;
+
 }
 
 .article{
-    height: 50px;
-    width: 20%;
+    padding: 5px;
+    height: 160px;
+    width: 96%;
+    color: white;
     background-color: gray;
-    position: relative;
-    top: 200px;
+    margin-top: 50px;
+    margin-left: 5px;
+    overflow: auto;
+     /* position: relative;  */
+    /* top: 200px;
     left: 0;
-    right: 0;
+    right: 0; */
 }
 
-.aside{
+/* .aside{
     height: 200px;
     width: 20%;
     background-color: #eee;
@@ -85,5 +100,30 @@ body{
     top: 120px;
     left: 70%;
     right: 60px;
+} */
+
+.aside {
+    padding-top: 30px;
+    height: 250px;
+    width: 360px;
+    background-color: #eee;
+    float: left;
+    margin-left: 15px;
+}
+
+.footer{
+    padding: 30px;
+    /* height: 50px; */
+    width: 850px;
+    background-color: #eee;
+    margin-top: 2%;
+    /* position: relative;
+    top: 200px;
+    left: 0;
+    right: 0; */
+}
+
+.container {
+    overflow: auto;
 }
 
